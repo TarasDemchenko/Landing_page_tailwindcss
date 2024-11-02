@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .tab-trigger.active{
+        @apply text-blue-600 border-b border-b-blue-500 pb-3;
+
+    }
+    .section-text{
+        @apply text-base text-gray-500 
+    }
+}
